@@ -16,5 +16,5 @@ RUN chmod 755 $SBT_HOME/bin/sbt
 
 WORKDIR /app
 
-ENTRYPOINT $SBT_HOME/bin/sbt
+#ENTRYPOINT $SBT_HOME/bin/sbt
 
